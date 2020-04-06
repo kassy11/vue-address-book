@@ -11,9 +11,12 @@
       <v-spacer></v-spacer>
 
     </v-app-bar>
+    <SideNav/>
 
     <v-content>
-      <SideNav/>
+      <v-container fluid fill-height align-start>
+        <router-view/>
+      </v-container>
     </v-content>
   </v-app>
 </template>

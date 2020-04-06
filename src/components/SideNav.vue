@@ -3,10 +3,10 @@
     <v-list>
       <v-list-item>
         <v-list-item-avatar>
-          <img v-if="photoURL" :src="photoURL">
+          <img src="https://avatars2.githubusercontent.com/u/1363954?s=460&v=4">
         </v-list-item-avatar>
         <v-list-item-content>
-          <v-list-item-title>kassy11</v-list-item-title>
+          <v-list-item-title>Kazuya Kojima</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
 
@@ -30,7 +30,8 @@ export default {
     return {
       drawer: false,
       items: [
-        { title: '連絡先一覧', icon: 'mdi-menu' }
+        { title: 'ホーム', icon: 'mdi-home', link: { name: 'home'} },
+        { title: '連絡先一覧', icon: 'mdi-menu', link: { name: 'addresses' } }
       ]
     }
   }
