@@ -42,4 +42,4 @@ test/
 *.code-workspace
 
 # API key
-main.js
+src/main.js
