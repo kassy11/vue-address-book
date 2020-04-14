@@ -41,4 +41,5 @@ test/
 !.vscode/extensions.json
 *.code-workspace
 
-
+# API key
+main.js
