@@ -3,6 +3,7 @@ node_modules
 /dist
 
 # local env files
+.env
 .env.local
 .env.*.local
 
@@ -40,6 +41,3 @@ test/
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
-
-# API key
-src/main.js
